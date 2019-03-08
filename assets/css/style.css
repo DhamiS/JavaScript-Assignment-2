@@ -1,0 +1,116 @@
+body {
+    background-image: url('../images/Fresh-Game-Of-Thrones-Wallpaper.jpg');
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+#splashscreen {
+    background-color: #57C1EC;
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.black-background {
+    background-color: #153044;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.splashBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+    margin-top: 40%;
+}
+
+.splashBox2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+.wrongBox {
+    margin: 0 auto;
+    text-align: center;
+    padding: 4%;
+}
+
+label {
+    color: wheat;
+}
+
+#answerScreen {
+    display: none;
+    background-image: url('../images/Fresh-Game-Of-Thrones-Wallpaper.jpg');
+    background-repeat: no-repeat;
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+#timesUp {
+    display: none;
+    background-image: url('../images/Fresh-Game-Of-Thrones-Wallpaper.jpg');
+    background-repeat: no-repeat;
+    width: 35%;
+    margin: 0 auto;
+    padding: 2%;
+    margin-top: 15%;
+    font-size: 21px;
+}
+
+.up {
+    color: lightskyblue;
+}
+
+.timeRemain {
+    padding: 2%;
+    color: lightskyblue;
+}
+
+.timeRemain #time-remain {
+    font-size: 60px;
+}
+
+body .container {
+    opacity: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.questions {
+    font-size: 25px;
+    
+}
+
+.ques,
+label {
+    padding: 1%;
+}
+
+header {
+    font-size: 60px;
+    color: lightskyblue;
+    margin-top: 2%;
+}
